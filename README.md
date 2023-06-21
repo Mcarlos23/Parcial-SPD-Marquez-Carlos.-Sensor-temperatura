@@ -91,12 +91,12 @@ void validarTemperatura(int temperatura)
 ~~~
 void indicarIncendio()
 {
-	digitalWrite(LED_VERDE, LOW);
-    encenderServo();
-  	
-  	
+    digitalWrite(LED_VERDE, LOW);
+    encenderServo();	
 }
+~~~
 
+~~~
 void encenderServo()
 {
   digitalWrite(LED_VERDE, LOW);
