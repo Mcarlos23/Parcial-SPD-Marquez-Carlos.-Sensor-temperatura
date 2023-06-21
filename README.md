@@ -150,13 +150,13 @@ El proyecta cuenta con los siguientes componentes:
 
 Para el proyecto, utilizaremos las siguientes bibliotecas:
 
-LiquidCrystal_I2C: Esta biblioteca nos proporciona funcionalidades para trabajar con el display LCD utilizando el bus I2C. Nos permite controlar y mostrar información en el display de manera sencilla.
+**LiquidCrystal_I2C**: Esta biblioteca nos proporciona funcionalidades para trabajar con el display LCD utilizando el bus I2C. Nos permite controlar y mostrar información en el display de manera sencilla.
 
-Wire: Esta biblioteca se utiliza para establecer la comunicación a través del bus I2C. Nos permite enviar y recibir datos entre Arduino y otros dispositivos conectados al bus.
+**Wire**: Esta biblioteca se utiliza para establecer la comunicación a través del bus I2C. Nos permite enviar y recibir datos entre Arduino y otros dispositivos conectados al bus.
 
-IRremote: Esta biblioteca nos permite utilizar el sensor infrarrojo. Con ella, podemos recibir y decodificar señales infrarrojas, lo que nos permitirá implementar la funcionalidad de control remoto en nuestro proyecto.
+**IRremote**: Esta biblioteca nos permite utilizar el sensor infrarrojo. Con ella, podemos recibir y decodificar señales infrarrojas, lo que nos permitirá implementar la funcionalidad de control remoto en nuestro proyecto.
 
-Servo: Esta biblioteca nos brinda las funciones necesarias para controlar un servo motor. Podremos especificar el ángulo de giro deseado y la biblioteca se encargará de enviar las señales adecuadas para posicionar el servo en la posición correspondiente.
+**Servo**: Esta biblioteca nos brinda las funciones necesarias para controlar un servo motor. Podremos especificar el ángulo de giro deseado y la biblioteca se encargará de enviar las señales adecuadas para posicionar el servo en la posición correspondiente.
 
 
 
