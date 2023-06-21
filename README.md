@@ -1,8 +1,6 @@
 # Sistema de incendio con Arduino
 ## Segundo Parcial
 
-Ejercicio de simulación de recorrido de estaciones de Subte con indicación sonora. 
-
 ![](https://github.com/Mcarlos23/Parcial-SPD-Marquez-Carlos.-Sensor-temperatura/blob/main/parcial_arduino.jpg?raw=true)
 
 ## Comenzando 🚀
