@@ -24,13 +24,13 @@ El display LCD debe mostrar la estación del año actual.
 * * *
 
  ~~~ C++ 
-bool encenderYApagarSistema()
+bool validarTeclaControl(long int codigo)
 {
   if (IrReceiver.decode())  // Verifica si hay una señal IR decodificada
   {
     unsigned long hexValue = IrReceiver.decodedIRData.decodedRawData;  // Obtiene el valor de la lectura
-    
-    if (hexValue == CODIGO_ENCENDIDO)  // Compara el valor hexadecimal con el código para enceder.
+    Serial.print(hexValue, HEX);
+    if (hexValue == codigo)  // Compara el valor hexadecimal con el código para enceder.
     {
        IrReceiver.resume();  // Se reanuda la recepción de señales IR para recibir la siguiente señal
        return true;  // Devuelve true si el valor hexadecimal coincide
